@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ayush portfolio</title>
+<meta charset="utf-8">
+<meta http-equiv=“X-UA-Compatible” content= “IE=edge”>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type = "text/css" href="main.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+<!-- Unicon only -->
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+<!-- JSS -->
+
+<!-- googlefonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+
+<!-- other lib -->
+<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <section class="navigation-bar" id = "navbar">
+     <div>
+     <a class = "nav-link" href="#Home" traget ="_blank">
+        <i class="uil uil-home"></i>
+     Home
+     </a>
+     <a class = "nav-link" href="#about" traget ="_blank">
+        <i class="uil uil-user-circle"></i>
+        About 
+        </a>
+
+        <a class = "nav-link" href="#qualification section">
+          <i class="uil uil-graduation-cap"></i>
+          Education
+          </a>
+
+     <a class = "nav-link" href="#work_exp">
+      <i class="uil uil-constructor"></i>
+        Work Experience
+        </a>
+        <a class = "nav-link" href="#projects">
+            <i class="uil uil-presentation-check"></i>
+            Projects 
+            </a>
+        
+
+    <a class = "nav-link" href="mailto:ayuscott@gmail.com">
+    <i class="uil uil-envelope-alt"></i>
+    Contact
+    </a>           
+    <a class = "nav-link" href="https://www.linkedin.com/in/ayush-joshi-b2a999163/" traget ="_blank">
+        <i class="uil uil-linkedin"></i>
+        Linkedin
+                </a>
+        
+    </div>
+     </section>
+     
+     <script>
+     var prevScrollpos = window.pageYOffset;
+     window.onscroll = function() {
+       var currentScrollPos = window.pageYOffset;
+       if (prevScrollpos > currentScrollPos) {
+         document.getElementById("navbar").style.top = "0";
+       } else {
+         document.getElementById("navbar").style.top = "-50px";
+       }
+       prevScrollpos = currentScrollPos;
+     }
+     </script>
+
+<!---main section -->
+    <section class="hero" id= "home">
+    <div class= hero-top>
+        <div class="prof-pic">
+        <img id ="profile-pic" src= "images/pasp_visa.jpg" alt="avatar">
+        </div>
+        <div class= hero-content>
+        
+        <!-- <h3 class="intro-react">Hello, my name<br> -->
+        <h1 class ="my-name" >Ayush Joshi <br>
+         </h1> 
+        </div>
+        
+        <div class = "content-2">
+         <h3 class = "info">Business & Data analyst,Consultant,Product Manager</h3> 
+          
+        </div>
+      
+
+        <div class= "home_scroll">
+        <a href = "#about" class="home_scroll-button button--flex">
+            <i class="uil uil-mouse-alt home_scroll-mouse "></i>
+            <span class="home_scroll-name">Scroll down</span>
+            <i class="uil uil-arrow-down home_scroll-arrow"></i>
+        </a>
+        </div>
+    </div>
+  
+    </section>
+
+
+
+<!---About--->
+
+
+<section class="about" id= "about">
+
+    <h2 class= "section_title" >About Me </h2>
+    <span class="section_subtile">My introduction</span> 
+    <div class="about_con">
+        <p class="about_desc"> 
+        Born in a small mountain town near the himalayan ranges, I moved to Canada at the age of 17 to pursue my undergaduate degree. After five years away from home,I am finally graduating in the fall of 2021 from Simon Fraser University. 
+        During my time at SFU, I completed 16 months of internships/co-op, was part of various student groups, badminton team and recieved many scholorships and awards. I have acumulated more 1+ year of experince working as data analysis, consultant, product managment and marketing. As I move on to the next chapter I am looking for new opportunity in these feilds.
+        I am always up for a new challenge and open to expolre new oportunities.
+        </p>
+    </div>
+    <div class="dw_button">
+        <a href="images/myresume.pdf" class= "cv_button" download="CV">
+           Download CV <i class="uil uil-file-download-alt"></i>
+
+        </a>
+    </div>
+
+
+
+
+</section>
+    
+
+<section class="qualification section" id="qualification section">
+  <h2 class= "section_title" > Education </h2>
+  <span class="section_subtile-educ">
+    <i class="uil uil-graduation-cap"></i>
+    Simon Fraser University 2016-2021 <br> 
+    Bachelor of Business Adminstration (CO-OP) <br>
+      Concentration in Management Information System (Focus in Data and System Analytics).
+    </span> 
+    <div class="qual_cont div">
+        <div class="qualtab"></div>
+    </div>
+</section>
+
+  
+  
+<!---work experience -->
+<section class="work_exp" id= "work_exp">
+    <h2 class= "wsection_title" > Experience<br>
+        <p class="w_title">My journey </p> 
+    </h2>
+    
+    <div class="container">
+        <div class="accordion-1">
+          <div class="accordion-1-item" id="question1">
+            <a class="accordion-link" href="#question1">
+              <div class="flex">
+                <h3>Digital Insights Lead - Appnovation (Dec 2020 - Aug 2021) </h3>
+        
+              </div>
+              <i class="icon ion-md-arrow-forward"></i>
+              <i class="icon ion-md-arrow-down"></i>
+            </a>
+            <div class="answer">
+              <p> Appnovation is a global, full service digital consultancy firm. 
+              I was part of the Pre-sales and Go-To-Market team and worked collaboratively with Engineering, Marketing, Legal and UX teams on cutting-edge technologies. Some of my highlights:
+              <ul>
+                <li>Supported the acquisition of over $10 Million CAD in new business globally as part of pre-sales</li> 
+                  <li>Developed various interactive dashboards using Tableau and Data studio for executives and other key stakeholders to monitor performance, sales and opportunities pursued in a quarter for all regions 
+                  </li>
+                  <li>
+                    Developed a commad slash slack app to migrate data from slack to googlesheets
+                  </li>
+                <li>Managed and led the team of four junior co-ops  </li>
+                <li>Createad a case-study database using Webapps, JS, Html and, Css</li>
+                <li>Automated routine and trigger-based internal processes using google apps script to save time and team effort</li>
+                <li>Worked in an agile team environment developing Jira tickets, use cases, and test cases by effectively communicating requirements from business stakeholders to technical administrators</li>
+              </ul>  
+              </p>
+            </div>
+            <hr>
+
+        </div>
+
+          <div class="accordion-1-item" id="question2">
+            <a class="accordion-link" href="#question2">
+              <div class="flex">
+                <h3>HRIS Data Analyst - Teck Resources(Sept 2019 - May 2020)</h3>
+              </div>
+              <i class="icon ion-md-arrow-forward"></i>
+              <i class="icon ion-md-arrow-down"></i>
+            </a>
+            <div class="answer">
+              <p>Part of HRIS team involved in global implementation ERP project at Teck resources working closely with the manager and project manager. Some of the projects I worked on during my time at teck:
+                <ul>
+                <li>Managed Microsoft teams consisting of over 200 members from organizations like SAP and IBM</li>
+                <li>
+                  Assisted with data validation to ensure a smooth transition of data from the old system to the new one
+                </li>
+                <li>
+                  Used VBA and macros to create and automate various forms for compensation, payroll, and other HR departments
+                </li>
+                <li>Created an automated overtime payroll form that was published incorporate website</li>
+                <li>Designed a new program to calculate seniority years for the various mine site, and presented the program in front of multiple shareholders and stakeholders</li>
+                
+                </ul>
+              </p>
+            </div>
+            <hr>
+        </div>
+
+          <div class="accordion-1-item" id="question3">
+            <a class="accordion-link" href="#question3">
+              <div class="flex">
+                <h3>Junior Project Manager - Simon Fraser University (Sept 2018 - May 2019)</h3>
+                
+              </div>
+              <i class="icon ion-md-arrow-forward"></i>
+              <i class="icon ion-md-arrow-down"></i>
+            </a>
+            <div class="answer">
+              <p>Worked closely with the Project manager for the launch of new OLC website at SFU. Some of my duties:</p>
+               <ul>
+                <li>Managed a team of four students responsible for developing the cooperative learning website of SFU </li>
+                <li>Assisted Project manager with scheduling and kept track of the website progress</li>
+                <li>Created scripts for testing the website </li>
+                <li>Ensured everything was working as expected and provided with ideas to improve User Experience and the design of web pages</li>
+                <li>Assisted in logic and some backend programming using drupal </li>
+                
+                
+
+    
+               </ul>
+            </div>
+            <hr>
+        </div>
+
+          <div class="accordion-1-item" id="question4">
+            <a class="accordion-link" href="#question4">
+              <div>
+                <h3>Research Assistant-Simon Fraser University(Sept 2018 - Dec 2018)</h3>
+
+              </div>
+              <i class="icon ion-md-arrow-forward"></i>
+              <i class="icon ion-md-arrow-down"></i>
+            </a>
+            <div class="answer">
+              <p>Worked as a research assitant for quantative marketing department at Simon fraser</p>
+            <ul>
+              <li>Conducted research on top 20 schools in Canada offering BATM program</li>
+              <li>
+                Analyzed the data using statistical techniques and presented my findings in a detailed report stating recommendations to improve the program at SFU and attract more students 
+                </li>
+          
+            </ul>
+            </div>
+            <hr>
+        </div>
+       </div>
+      </div>
+</section>
+
+<!---dummy section -->
+<section class="dummy">
+
+</section>
+
+
+<!---project -->
+
+      <section class="projects" id="projects">
+        <h1>Projects</h1>
+
+        <div class="accordion">
+    
+            <!-- BOX 1 -->
+            <div class="box a1">
+                <div class="image_1">
+                    <div class="text">
+                        <h2>LEGO ROBOTS	</h2>
+                        <p>
+                          Designed and programed mechanical robots with sensors 
+                          to perform tasks like reading bar code, sumo fighting, line tracking and solving maze. I used RobotC and Matlab for programming
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- BOX 2 -->
+            <div class="box a2">
+                <div class="image_2">
+                    <div class="text">
+                        <h2>Evacuate</h2>
+                        <p>
+                          Product manager for designing a new evacuation system in case of emergencies
+                          Designed a prototype to evacuate a cup of coffee from a one-meter high building 
+                          quickly as possible while still safely decelerating and stopping at the bottom with minimum spillage
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- BOX 3 -->
+            <div class="box a3">
+                <div class="image_3">
+                    <div class="text">
+                        <h2>Nommy app</h2>
+                        <p>
+                          Developed an app called NOMMY that helps one to keep track of the food items in the pantry and suggests recipes and healthy eating options based on the users BMI, dietary restrictions and budget
+                          Used C# to program this cross-platform app, for both ios and android. 
+                          Created the complete business model with stratergic analysis and presented to investors , 
+                          Won second position in the opportunity Fest at SFU
+                          
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- BOX 1 -->
+            <div class="box a4">
+                <div class="image_4">
+                    <div class="text">
+                        <h2>SFU Survival Guide Website</h2>
+                        <p>
+                           As part of project managment course ,Created COVID-19 Survival guide website for new incoming student to navigate through University life. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- BOX 5 -->
+            <div class="box a5">
+                <div class="image_5">
+                    <div class="text">
+                        <h2>Data Anyalsis for retail store </h2>
+                        <p>
+                            Performed gap and root cause analysis for a retail store using statiticals tool like Knime, python and SAAS 
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+
+      </section>
+ 
+      <!---Education -->
+
+
+
+  
+
+     <!--contact me -->
+    <!-- CSS Code -->
+  
+    
+    
+    
+
+  <!--Javascript-->
+  
+
+
+</body>
+
+
+
+
+
+<!--!section class="contact" id="contact"
+<div>
+  <h2 class="section_title"> Contact </h2>
+  <form action="" method="POST">      
+    <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+    <input name="email" type="text" class="feedback-input" placeholder="Email" />
+    <textarea name="message" class="feedback-input" placeholder="Message"></textarea>
+    <input name="submit" type="submit" value="SUBMIT"/>
+    
+  </form>
+ 
+
+
+  
+
+ 
+</div>
+</section>-->
+
+
+
+
+<footer class = "fot_bar" >
+  <div>
+    <a class = "nav-link" href="#home" traget ="_blank">
+       <i class="uil uil-home"></i>
+    Home
+    </a>
+    <a class = "nav-link" href="mailto:ayuscott@gmail.com">
+      <i class="uil uil-envelope-alt"></i>
+      Contact
+      </a>         
+      <a class = "nav-link" href="https://www.linkedin.com/in/ayush-joshi-b2a999163/" traget ="_blank">
+          <i class="uil uil-linkedin"></i>
+          Linkedin
+                  </a>
+    
+  
+</footer>
+</html>
+
+
